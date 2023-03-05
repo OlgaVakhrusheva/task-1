@@ -49,7 +49,7 @@ function addInCartSumChange(sum, delta) {
 }
 
 "Задание №1.1."
-let message = "productName" 'за' "productPrice" 'теперь в корзине';
+let message = "productName" + ' '+'за' +' ' + "productPrice" +' ' +'теперь в корзине';
 console.log(message);
 "Конец решения задания №1.1."
 
@@ -59,6 +59,6 @@ let newValue = "oldValue";
 
 "Задание №1.3."
 let newSum = "oldSum" + "difference"
-let newSumText = "newSum" + ' ' + 'р';
-let newSumText = ("косые ковычки");
+let newSumText = "newSum" + ' ' + '₽';
+newSumText = `${newSum} ₽`;
 "Конец решения задания №1.3."
